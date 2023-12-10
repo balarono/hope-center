@@ -1,0 +1,366 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	text-decoration: none;
+	list-style: none;
+}
+head{
+	background-color: rgb(29, 68, 73);
+	
+
+}
+.headermain{
+	display: flex;
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 170px;
+	align-items: center;
+	
+}
+.logo{
+	/* position: absolute; */
+	width: 320px;
+	height: 180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content{
+	position: absolute;
+	right: 8%;
+	top: 18%;
+	
+
+}
+.content a{
+	color: rgb(226, 218, 218);
+	padding: 15px;
+	font-family:Helvetica;
+	font-weight :500;
+
+}
+.content a:hover{
+	background-color: rgb(210, 171, 41);
+	border-radius: 5px;
+}
+.toplogo{
+	position: absolute;
+	top: 17px;
+	right: 8%;
+	
+}
+.toplogo i{
+	color: rgb(226, 218, 218);
+	padding: 14px;
+	border-block-end: 1px solid rgb(101, 94, 94);
+	font-size: 15px;
+	
+}
+.toplogo i:hover{
+	color: greenyellow;
+}
+/* ----------------------HEADER OVER------------------- */
+
+.mainbody{
+	/* position: absolute; */
+	height: 480px;
+	display: flex;
+
+}
+.mainsidebar{
+	position: relative;
+	height: 480px;
+	width: 230px;
+	/* background-color: rgb(24, 100, 144); */
+	text-align: center;
+	left: 4%;
+	justify-content: space-evenly;
+}
+.box1{
+	
+	width:230px;
+	height:160px ;
+	background-color: orange;
+	color: white;
+	
+}
+.box2{
+	
+	width:230px;
+	height:160px ;
+	background-color: rgb(86, 222, 95);
+	color: white;
+}
+.box3{
+	
+	width:230px;
+	height:160px ;
+	background-color:rgb(101, 232, 230);
+	color: white;
+	
+}
+.para1{
+
+	position: relative;
+	font-size: 50px;
+	top: 25%;
+	
+}
+.para2{
+	position: relative;
+	font-size: 25;
+	top: 26%;
+}
+.mainimage{
+	background-repeat: no-repeat;
+	height: 450px;
+	
+}
+/* -----------------------------mainbody over----------------------- */
+ .submain {
+	position:relative;
+	background-color: rgb(196, 188, 188);
+	height:310px ;
+	width: 1120px;
+	left: 4%;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	
+}
+.submain p{
+	font-size: 45px;
+	font-family: arial;
+	color: rgb(99, 99, 99);
+}
+.submain1{
+	position: relative;
+	top: 5%;
+	
+	 
+}
+.submain2{
+	position: relative;
+	top: 5%;
+}
+.submain3{
+	position: relative;
+    top: 5%;
+}
+.submain1  p::first-letter{
+	font-size: 60px;
+	background-color: orange;
+	color: white;
+	font-family: arial;
+	
+}
+.submain2  p::first-letter{
+	font-size: 60px;
+	background-color: rgb(86, 222, 95);
+	color: white;
+	font-family: arial;
+	
+}
+.submain3  p::first-letter{
+	font-size: 60px;
+	background-color: rgb(101, 232, 230);
+	color: white;
+	font-family: arial;
+}
+.con{
+	position: absolute;
+	display:flex ;
+	font-family: arial;
+	color:rgb(99, 99, 99) ;
+	
+}
+.submain1 a{
+	position: absolute;
+	display: inline;
+}
+    /* ----------------submain over------------ */
+
+.mission{
+	position: relative;
+	background-color: rgb(54, 50, 50);
+	width: 1120px;
+	left: 4%;
+    height: 180px;
+
+}	
+.missionlogo{
+	position: absolute;
+	top: 40px;
+	left:50px;
+	color: rgb(212, 211, 211);
+	font-size:250%;
+	font-family: arial;
+}
+.missioncontent{
+	position: absolute;
+	left: 38%;
+	height: 100px;
+	width: 600px;
+	color: white;
+	text-align:justify;
+	font-family: 'Trebuchet MS';
+	font-size: 14px;
+	top: 55px;
+   font-weight: 400;
+}
+.quot1{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	top:43px;
+	left: 34%; 
+
+}
+.quot2{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	bottom: 33px;
+	right: 38%;
+
+}
+/* --------------------------------mission over--------------- */
+.year{
+	position: relative;
+	left: 4%;
+	width:1120px ;
+	height:260px ;
+	background-color: black;
+}
+.yearin{
+	position:relative;
+	display: flex;
+	color: white;
+	justify-content:space-around;
+	top: 20px;
+}
+.yearfirst h3{
+	font-family: 'Trebuchet MS';
+	font-size: 40px;
+	
+}
+.yearfirst p{
+	font-weight: bold;
+	 font-family: 'Trebuchet MS';
+	
+}
+.cont{
+    font-family:'Trebuchet MS' ;
+	
+}
+.acon1{
+	color: white;
+	background-color: orange;
+	height: 35px;
+	width: 120px;
+	font-family: 'Trebuchet MS';
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+.acon2{
+	color: white;
+	background-color: rgb(86, 222, 95);
+	height: 35px;
+	width: 120px;
+	font-family: 'Trebuchet MS';
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+.acon3{
+	color: white;
+	background-color: rgb(101, 232, 230);
+	height: 35px;
+	width: 120px;
+	font-family: 'Trebuchet MS';
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+.yearin a{
+	color: white;
+}
+.acon1:hover{
+	background-color: black;
+	border: 1px solid white;
+}
+.acon2:hover{
+	background-color: black;
+	border: 1px solid white;
+}
+.acon3:hover{
+	background-color: black;
+	border: 1px solid white;
+}
+
+/* ----------------------------------year over----------------------- */
+.footermain{
+	background-color: rgb(115, 102, 102);
+	position: relative;
+	width: 1120px;
+	left: 4%;
+	height: 130px;
+
+}
+.footerlogo{
+	position: absolute;
+	font-size: 50px;
+	font-family:courier;
+	color: white;
+	top: 20px;
+	left: 15px;
+	
+}
+.footercontent{
+	position:absolute;
+	top: 85px;
+	left: 20px;
+	color: white;
+}
+.footercontent a{
+	color: white;
+	padding: 11px;
+	font-family:'Trebuchet Ms';
+}
+.footercontent a:hover{
+	color: rgb(138, 129, 129);
+}
+.phone i{
+	position: absolute;
+	color: white;
+	height: 50px;
+	width: 10px;
+	font-size:28px ;
+	right: 41%;
+	top: 69px;
+}
+.phone p{
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	right: 5%;
+	top:64px;
+	font-family:courier;
+}
+
+
+	
+
+
+
+
+
+
+	
+
+
