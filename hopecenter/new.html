@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    .........oops concept  class method.................
+    class Bala{
+
+        constructor(name,age){
+            console.log(name, age)
+            this.name=name;
+            this.age=age;
+        }
+        hello(){
+            console.log(`my name is ${this.name} and age is ${this.age}`);
+        }
+       }
+        var pa1=new Bala('bala',24);
+        var pa2=new Bala('ram',27);
+        pa1.hello();
+        pa2.hello();
+
+     ................ inheritance.....................
+
+     class Bala{
+
+        constructor(name,age){
+            console.log(name, age)
+            this.name=name;
+            this.age=age;
+        }
+        hello(){
+            console.log(`my name is ${this.name} and age is ${this.age}`);
+        }
+       }
+
+       class Student extends bala{
+          constructor(name,age,grade){
+            console.log(name, age, grade);
+            super(name,age);
+            this.grade=grade;
+        }
+        world(){
+            console.log(`my grade is ${grade}`);
+        }
+       }
+       var pa1=new bala('bala',24);
+       var pa2=new student('A');
+       pa1.hello();
+       pa2.world();
+
+
+</body>
+</html>
